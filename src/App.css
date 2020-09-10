@@ -1,3 +1,14 @@
+
+@font-face {
+  font-family: 'Compagnon Regular';
+  src:    url('./fonts/Compagnon-Roman.eot');
+  src:    url('./fonts/Compagnon-Roman.woff') format('woff'),
+          url('./fonts/Compagnon-Roman.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .App {
   text-align: center;
 }
