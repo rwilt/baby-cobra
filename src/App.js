@@ -1,17 +1,23 @@
 import React from 'react';
 import logo from './logo.svg';
+import Skater from './photos/skateboy.jpg'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>
-          Baby Cobra
-        </h1>
-        <h2>Skate and Yoga         
-        </h2>
-      </header>
+  
+        <section className="title-section">
+          <span className="baby">
+          Baby
+          </span>
+          <span className="cobra">
+          Cobra
+          </span>
+          </section>
+          <h2>Yoga and Skate
+          </h2>
+
     </div>
   );
 }

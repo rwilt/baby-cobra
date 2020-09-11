@@ -1,49 +1,46 @@
 
 @font-face {
-  font-family: 'Compagnon Regular';
-  src:    url('./fonts/Compagnon-Roman.eot');
-  src:    url('./fonts/Compagnon-Roman.woff') format('woff'),
-          url('./fonts/Compagnon-Roman.woff2') format('woff2');
+  font-family: 'CheeeDemo-Baby';
+  src:    url('/fonts/CheeeDemo-Baby.eot');
+  src:    url('/fonts/CheeeDemo-Baby.woff') format("woff"),
+  url('/fonts/CheeeDemo-Baby.woff') format("eot"),
+  url('/fonts/CheeeDemo-Baby.woff2') format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
+body{
+  background-color: #FADDC6;
+}
 
-.App {
+
+h1{
+  font-family: 'CheeeDemo-Baby';
+  font-size: 15vh;
+  color: black;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.baby{
+  font-family: 'CheeeDemo-Baby';
+  color: white;
+  /* color: #FF3CC7; */
+  font-size: 15vh;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cobra{
+  font-family: 'CheeeDemo-Baby';
+  color: white;
+  /* color: #F95738; */
+  font-size: 15vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+section{
+  display:flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  height: 100%;
+  border: 1px solid black;
 }
