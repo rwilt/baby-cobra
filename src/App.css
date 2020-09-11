@@ -9,38 +9,68 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'CheeeDemo-Small';
+  src:    url('/fonts/CheeeDemo-Small.otf');
+  /* src:    url('/fonts/CheeeDemo-Baby.woff') format("woff"),
+  url('/fonts/CheeeDemo-Baby.woff') format("eot"),
+  url('/fonts/CheeeDemo-Baby.woff2') format("woff2"); */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CheeeDemo-Peeenutt';
+  src:    url('/fonts/CheeeDemo-Peeenutt.otf');
+  /* src:    url('/fonts/CheeeDemo-Baby.woff') format("woff"),
+  url('/fonts/CheeeDemo-Baby.woff') format("eot"),
+  url('/fonts/CheeeDemo-Baby.woff2') format("woff2"); */
+  font-weight: normal;
+  font-style: normal;
+}
+
 body{
-  background-color: #FADDC6;
+  background-color: #fae9db;
+  /* background-color: #FADDC6; */
 }
 
 
-h1{
+/* h1{
   font-family: 'CheeeDemo-Baby';
   font-size: 15vh;
   color: black;
   text-align: center;
-}
+} */
 
 .baby{
-  font-family: 'CheeeDemo-Baby';
-  color: white;
+  font-family: 'CheeeDemo-Peeenutt';
+  color: black;
   /* color: #FF3CC7; */
-  font-size: 15vh;
+  font-size: 10vh;
+  margin-right: 15px;
   
 }
 
 .cobra{
-  font-family: 'CheeeDemo-Baby';
-  color: white;
+  font-family: 'CheeeDemo-Peeenutt';
+  color: black;
   /* color: #F95738; */
-  font-size: 15vh;
+  font-size: 10vh;
 }
 
-section{
+header{
   display:flex;
+  flex-direction: row;
   text-align: center;
   align-items: center;
   justify-content: center;
   height: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+}
+
+.nav-link{
+  margin: 0 3vw 0 3vw;
+  text-decoration: none;
+  font-family: 'CheeeDemo-Small';
+  color: #F95738;
 }
